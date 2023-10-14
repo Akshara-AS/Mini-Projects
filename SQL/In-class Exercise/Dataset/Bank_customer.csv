@@ -1,0 +1,9 @@
+customer_id,customer_name,Address,state_code,Telephone
+123001,Oliver,"225-5, Emeryville",CA,1897614500
+123002,George,"194-6,New brighton",MN,1897617000
+123003,Harry,"2909-5,walnut creek",CA,1897617866
+123004,Jack,"229-5, Concord",CA,1897627999
+123005,Jacob,"325-7, Mission Dist",SFO,1897637000
+123006,Noah,"275-9, saint-paul",MN,1897613200
+123007,Charlie,"125-1,Richfield",MN,1897617666
+123008,Robin,"3005-1,Heathrow",NY,1897614000

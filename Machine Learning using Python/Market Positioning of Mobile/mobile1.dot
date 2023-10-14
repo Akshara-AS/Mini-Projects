@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="ram <= 2235.5\nentropy = 1.999\nsamples = 1400\nvalue = [349, 365, 349, 337]\nclass = 1"] ;
+1 [label="ram <= 1175.5\nentropy = 1.364\nsamples = 745\nvalue = [349, 323, 73, 0]\nclass = 0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="battery_power <= 1252.5\nentropy = 0.581\nsamples = 339\nvalue = [292, 47, 0, 0]\nclass = 0"] ;
+1 -> 2 ;
+3 [label="entropy = 0.121\nsamples = 183\nvalue = [180, 3, 0, 0]\nclass = 0"] ;
+2 -> 3 ;
+4 [label="entropy = 0.858\nsamples = 156\nvalue = [112, 44, 0, 0]\nclass = 0"] ;
+2 -> 4 ;
+5 [label="battery_power <= 1106.5\nentropy = 1.221\nsamples = 406\nvalue = [57, 276, 73, 0]\nclass = 1"] ;
+1 -> 5 ;
+6 [label="entropy = 1.085\nsamples = 169\nvalue = [55, 109, 5, 0]\nclass = 1"] ;
+5 -> 6 ;
+7 [label="entropy = 0.931\nsamples = 237\nvalue = [2, 167, 68, 0]\nclass = 1"] ;
+5 -> 7 ;
+8 [label="ram <= 3013.5\nentropy = 1.273\nsamples = 655\nvalue = [0, 42, 276, 337]\nclass = 3"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="px_width <= 1302.0\nentropy = 1.171\nsamples = 314\nvalue = [0, 42, 221, 51]\nclass = 2"] ;
+8 -> 9 ;
+10 [label="entropy = 0.973\nsamples = 168\nvalue = [0, 40, 123, 5]\nclass = 2"] ;
+9 -> 10 ;
+11 [label="entropy = 0.996\nsamples = 146\nvalue = [0, 2, 98, 46]\nclass = 2"] ;
+9 -> 11 ;
+12 [label="battery_power <= 1268.5\nentropy = 0.637\nsamples = 341\nvalue = [0, 0, 55, 286]\nclass = 3"] ;
+8 -> 12 ;
+13 [label="entropy = 0.901\nsamples = 164\nvalue = [0, 0, 52, 112]\nclass = 3"] ;
+12 -> 13 ;
+14 [label="entropy = 0.124\nsamples = 177\nvalue = [0, 0, 3, 174]\nclass = 3"] ;
+12 -> 14 ;
+}
